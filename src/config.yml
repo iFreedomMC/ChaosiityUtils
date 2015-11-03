@@ -1,0 +1,16 @@
+##
+## ScuphUtils 2.0 Configuration
+##
+
+server:
+  # This server's name
+  name: iFreedom
+
+  # This server's owner
+  owner: Chaosiity
+
+  # This server's website
+  website: http://thefoundationmc.boards.net
+
+
+admins: []
