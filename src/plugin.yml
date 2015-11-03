@@ -12,59 +12,17 @@ commands:
     forums:
         usage: /<command>
         description: the forums link
-        aliases: []
+        aliases: [website]
         permission: utils.forums  
-    notesforstaff:
-        usage: /<command>
-        description: Notes that might help the staff get the plugin working on their side.
-        aliases: []
-        permission: utils.notesforstaff
-    admins:
-        usage: /<command>
-        description: Find the server's admins
-        aliases: administrators
-        permission: utils.admins
-    ban:
-        usage: /<command> [-o] <player> <reason>
-        description: Bans a player
-        aliases: utilsban
-        permission: utils.ban
-    banip:
-        usage: /<command> <<player> | <ip>> <reason>
-        description: Bans a player IP
-        aliases: utilsbanip
-        permission: utils.banip
-    unban:
-        usage: /<command> <player>
-        description: Unbans a player
-        aliases: utilsunban
-        permission: utils.unban
-    apply:
-        usage: /<command>
-        description: info on how to apply
-        aliases: application
-        permission: utils.apply
     requesthelp:
         usage: /<command>
-        description: Request a staff member for help
-        aliases: ineedhelp
+        description: request help
+        aliases: [helpme]
         permission: utils.requesthelp
-    owner:
-        usage: /<command>
-        description: Find the server's owner
-        aliases: founder
-        permission: utils.owner
-    kick:
-        usage: /kick <player> <reason>
-        description: Kick a player
-        aliases: utilskick
-        permission: utils.kick
     warn:
-        usage: /warn <player> <reason>
-        description: Warn a player
+        usage: /<command>
+        description: warn a player
         aliases: []
         permission: utils.warn
-    title:
-        usage: /title [player] <remove | set <full title>>
-
-
+    
+    

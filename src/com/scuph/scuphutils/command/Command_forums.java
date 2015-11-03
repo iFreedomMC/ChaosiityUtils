@@ -13,7 +13,7 @@ public class Command_forums extends BukkitCommand<ScuphUtils> {
 
     @Override
     public boolean run(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-        sender.sendMessage(ChatColor.GREEN + "http://ifreedom.forumized.com");
+        sender.sendMessage(ChatColor.GREEN + plugin.getConfig().getString("server.website"));
         return true;
     }
 

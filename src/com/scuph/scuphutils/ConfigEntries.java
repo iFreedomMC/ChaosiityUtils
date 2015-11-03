@@ -6,12 +6,8 @@ public enum ConfigEntries implements PathContainer {
 
     SERVER_NAME("server.name"),
     SERVER_OWNER("server.owner"),
-    SERVER_WEBSITE("server.website"),
-    //
-    BANNING_APPEAL_URL("banning.appeal_url"),
-    //
-    ADMINS("admins");
-    //
+    SERVER_WEBSITE("server.website");
+
     private final String key;
 
     //
